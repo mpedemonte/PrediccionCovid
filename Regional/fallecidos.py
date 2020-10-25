@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 import csv, json
 
-csvFilePath='FallecidosCumulativo.csv'
-jsonFilePath='Fallecidos.json'
+csvFilePath='./csv/FallecidosCumulativo.csv'
+jsonFilePath='./json/Fallecidos.json'
 
 data={}
 with open(csvFilePath) as csvFile:
