@@ -4,6 +4,7 @@ aFecha=open('./CasosFallecidosPorComuna.csv')
 aReader=csv.reader(aFecha)
 
 for row in aReader:
+    largo=len(row)
     Fecha=row
     break
 
@@ -17,8 +18,8 @@ for row in reader:
         aux=row[0]
         dd={}
     else:
-        dd[row[2]]={Fecha[i]:row[i] for i in range(5,38)}
+        dd[row[2]]={Fecha[i]:row[i] for i in range(5,largo)}
     dDic[aux]=dd
-
+del dDic["Region"]
 with open('./json/CasosFallecidosPorComuna.json','w') as file:
     json.dump(dDic,file, indent=4)
