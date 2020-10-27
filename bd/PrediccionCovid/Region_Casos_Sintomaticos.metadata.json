@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"b4a40e67175e490a9526a272f82d350e","collectionName":"Region_Casos_Sintomaticos"}

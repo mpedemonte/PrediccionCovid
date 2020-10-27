@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"}],"uuid":"8589f1190ea7443ab8be3b4d81bea4b8","collectionName":"Comuna_Casos"}
