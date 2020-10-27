@@ -17,6 +17,7 @@ for row in reader:
     if aux!=row[0]:
         aux=row[0]
         dd={}
+        dd[row[2]]={Fecha[i]:row[i] for i in range(5,largo)}
     else:
         dd[row[2]]={Fecha[i]:row[i] for i in range(5,largo)}
     dDic[aux]=dd
