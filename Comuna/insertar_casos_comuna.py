@@ -41,12 +41,12 @@ for i in archivo:
                                 'Fecha' : fecha,
                                 'Casos' : value 
                             }
-                            #with open ("Casos Confirmados/json/casos/"+region+"_"+comuna+"_"+fecha+".json", "w", encoding='utf8') as jsonFile:
-                               #jsonFile.write(json.dumps(dato, indent=4, ensure_ascii=False))
+                            with open ("Casos Confirmados/json/casos/"+region+"_"+comuna+"_"+fecha+".json", "w", encoding='utf8') as jsonFile:
+                               jsonFile.write(json.dumps(dato, indent=4, ensure_ascii=False))
 
-                            #with open ("Casos Confirmados/json/casos/"+region+"_"+comuna+"_"+fecha+".json", "r", encoding="utf8") as jsonFile:
-                                #dat = json.load(jsonFile)
-                                #n = casos.find({"Region": region, "Comuna": comuna, "Fecha": fecha}).count()
-                                #if (n==0):
-                                    #casos.insert(dat)   
+                            with open ("Casos Confirmados/json/casos/"+region+"_"+comuna+"_"+fecha+".json", "r", encoding="utf8") as jsonFile:
+                                dat = json.load(jsonFile)
+                                n = casos.find({"Region": region, "Comuna": comuna, "Fecha": fecha}).count()
+                                if (n==0):
+                                    casos.insert(dat)   
 
