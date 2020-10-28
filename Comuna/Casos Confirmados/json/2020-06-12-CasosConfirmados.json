@@ -17,7 +17,7 @@
                 "Casos Confirmados": ""
             }
         },
-        "Tarapac\u00c3\u00a1": {
+        "Tarapacá": {
             "Alto Hospicio": {
                 "Casos Confirmados": "1345.0"
             },
@@ -157,7 +157,7 @@
                 "Casos Confirmados": ""
             }
         },
-        "Valpara\u00c3\u00adso": {
+        "Valparaíso": {
             "Algarrobo": {
                 "Casos Confirmados": "67.0"
             },
@@ -437,7 +437,7 @@
                 "Casos Confirmados": ""
             }
         },
-        "O\u00e2\u20ac\u2122Higgins": {
+        "O’Higgins": {
             "Chepica": {
                 "Casos Confirmados": "9.0"
             },
@@ -537,7 +537,7 @@
             "Santa Cruz": {
                 "Casos Confirmados": "35.0"
             },
-            "Desconocido O\u00e2\u20ac\u2122Higgins": {
+            "Desconocido O’Higgins": {
                 "Casos Confirmados": ""
             }
         },
@@ -636,7 +636,7 @@
                 "Casos Confirmados": ""
             }
         },
-        "\u00c3\u2018uble": {
+        "Ñuble": {
             "Bulnes": {
                 "Casos Confirmados": "201.0"
             },
@@ -704,7 +704,7 @@
                 "Casos Confirmados": ""
             }
         },
-        "Biob\u00c3\u00ado": {
+        "Biobío": {
             "Alto Biobio": {
                 "Casos Confirmados": "123.0"
             },
@@ -808,7 +808,7 @@
                 "Casos Confirmados": ""
             }
         },
-        "Araucan\u00c3\u00ada": {
+        "Araucanía": {
             "Angol": {
                 "Casos Confirmados": "226.0"
             },
@@ -909,7 +909,7 @@
                 "Casos Confirmados": ""
             }
         },
-        "Los R\u00c3\u00ados": {
+        "Los Ríos": {
             "Corral": {
                 "Casos Confirmados": "20.0"
             },
@@ -1045,7 +1045,7 @@
                 "Casos Confirmados": ""
             }
         },
-        "Ays\u00c3\u00a9n": {
+        "Aysén": {
             "Aysen": {
                 "Casos Confirmados": "4.0"
             },

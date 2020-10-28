@@ -17,7 +17,7 @@
                 "Casos Confirmados": "3.0"
             }
         },
-        "Tarapac\u00c3\u00a1": {
+        "Tarapacá": {
             "Alto Hospicio": {
                 "Casos Confirmados": "1949.0"
             },
@@ -157,7 +157,7 @@
                 "Casos Confirmados": "120.0"
             }
         },
-        "Valpara\u00c3\u00adso": {
+        "Valparaíso": {
             "Algarrobo": {
                 "Casos Confirmados": "96.0"
             },
@@ -437,7 +437,7 @@
                 "Casos Confirmados": "18109.0"
             }
         },
-        "O\u00e2\u20ac\u2122Higgins": {
+        "O’Higgins": {
             "Chepica": {
                 "Casos Confirmados": "58.0"
             },
@@ -537,7 +537,7 @@
             "Santa Cruz": {
                 "Casos Confirmados": "88.0"
             },
-            "Desconocido O\u00e2\u20ac\u2122Higgins": {
+            "Desconocido O’Higgins": {
                 "Casos Confirmados": "0.0"
             }
         },
@@ -636,7 +636,7 @@
                 "Casos Confirmados": "50.0"
             }
         },
-        "\u00c3\u2018uble": {
+        "Ñuble": {
             "Bulnes": {
                 "Casos Confirmados": "251.0"
             },
@@ -704,7 +704,7 @@
                 "Casos Confirmados": "4.0"
             }
         },
-        "Biob\u00c3\u00ado": {
+        "Biobío": {
             "Alto Biobio": {
                 "Casos Confirmados": "162.0"
             },
@@ -808,7 +808,7 @@
                 "Casos Confirmados": "160.0"
             }
         },
-        "Araucan\u00c3\u00ada": {
+        "Araucanía": {
             "Angol": {
                 "Casos Confirmados": "349.0"
             },
@@ -909,7 +909,7 @@
                 "Casos Confirmados": "8.0"
             }
         },
-        "Los R\u00c3\u00ados": {
+        "Los Ríos": {
             "Corral": {
                 "Casos Confirmados": "24.0"
             },
@@ -1045,7 +1045,7 @@
                 "Casos Confirmados": "44.0"
             }
         },
-        "Ays\u00c3\u00a9n": {
+        "Aysén": {
             "Aysen": {
                 "Casos Confirmados": "10.0"
             },

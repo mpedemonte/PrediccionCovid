@@ -10,7 +10,7 @@ nombres = nombres[:-1]
 for j in range(len(nombres)):
     dDic = {nombres[j][:-21]:{}}
     #print (nombres[j])
-    data=open('./Casos Confirmados/'+nombres[j])
+    data=open('./Casos Confirmados/'+nombres[j],'r', encoding='utf-8')
     reader=csv.reader(data)
 
     aux=''
@@ -23,6 +23,6 @@ for j in range(len(nombres)):
             dd[row[2]]={"Casos Confirmados":row[5]}
         dDic[nombres[j][:-21]][aux]=dd
     del dDic[nombres[j][:-21]]["Region"]
-    with open('./Casos Confirmados/json/'+nombres[j][:-3]+'json','w') as file:
-        json.dump(dDic,file, indent=4)
+    with open('./Casos Confirmados/json/'+nombres[j][:-3]+'json', 'w', encoding="utf8") as file:
+        json.dump(dDic,file, indent=4, ensure_ascii=False)
        

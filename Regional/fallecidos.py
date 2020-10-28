@@ -6,7 +6,7 @@ csvFilePath='./csv/FallecidosCumulativo.csv'
 jsonFilePath='./json/Fallecidos.json'
 
 data={}
-with open(csvFilePath) as csvFile:
+with open(csvFilePath,'r', encoding='utf-8') as csvFile:
     csvReader = csv.DictReader(csvFile)
     for rows in csvReader:
         id = rows['Region']
@@ -14,6 +14,6 @@ with open(csvFilePath) as csvFile:
 
 del data['Total']
 
-with open(jsonFilePath, 'w') as jsonFile:
-    jsonFile.write(json.dumps(data,indent=4))
+with open(jsonFilePath, 'w', encoding="utf8") as jsonFile:
+    jsonFile.write(json.dumps(data,indent=4, ensure_ascii=False))
 
