@@ -61,7 +61,7 @@ for x in mycol.find():
     Fecha.append(x["Fecha"])
     Casos.append(float(x["Casos"]))
 
-for i in range(len(Region)-1):
+for i in range(len(Region)):
     if Region[i] == "Arica y Parinacota":
         f1.append(Fecha[i])
         c1.append(Casos[i])
@@ -113,7 +113,7 @@ for i in range(len(Region)-1):
   
 print(len(f1))
 
-for i in range(1,16):
+for i in range(1,17):
      exec ("df%s = pd.DataFrame()" %(i))
      exec ("df%s['Fecha'] = pd.to_datetime(f%s)" % (i,i))
      exec ("df%s.index = df%s['Fecha']" % (i,i))

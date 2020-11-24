@@ -6,6 +6,7 @@ from keras.models import Sequential
 from keras.layers import Dense,Activation,Flatten
 from sklearn.preprocessing import MinMaxScaler
 
+#Preprocesado de los datos
 PASOS=7
 
 # convertir series en aprendizaje supervisado
@@ -50,16 +51,18 @@ def agregarNuevoValor(x_test,nuevoValor):
 
 myclient = pymongo.MongoClient("mongodb://localhost:27017/")
 mydb = myclient["PrediccionCovid"]
-mycol = mydb["Region_Casos_Sintomaticos"]
+mycol = mydb["Region_Fallecidos"]
 Region = []
 Fecha =[]
 Casos = []
 f1,f2 ,f3,f4,f5,f6,f7,f8,f9,f10,f11,f12,f13,f14,f15,f16= [],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]
 c1,c2 ,c3,c4,c5,c6,c7,c8,c9,c10,c11,c12,c13,c14,c15,c16= [],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]
+nc1,nc2 ,nc3,nc4,nc5,nc6,nc7,nc8,nc9,nc10,nc11,nc12,nc13,nc14,nc15,nc16= [],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]
 for x in mycol.find():
     Region.append(x["Region"])
     Fecha.append(x["Fecha"])
-    Casos.append(float(x["Casos"]))
+    Casos.append(int(float(x["Casos"])))
+print(len(Region))
 for i in range(len(Region)):
     if Region[i] == "Arica y Parinacota":
         f1.append(Fecha[i])
@@ -109,28 +112,38 @@ for i in range(len(Region)):
     if Region[i] == "Magallanes":
         f16.append(Fecha[i])
         c16.append(Casos[i])
-  
 
+for n in range(1,17):
+    print(n)
+    for i in range(len(c1)):
+        if i == 0:
+            exec("nc%s.append(c%s[i])" % (n,n))
+        else:
+            exec("nc%s.append(c%s[i]-c%s[i-1])" %(n,n,n))
 
 for i in range(1,17):
      exec ("df%s = pd.DataFrame()" %(i))
      exec ("df%s['Fecha'] = pd.to_datetime(f%s)" % (i,i))
      exec ("df%s.index = df%s['Fecha']" % (i,i))
-     exec ("df%s['Casos'] = c%s" % (i,i))
+     exec ("df%s['Casos'] = nc%s" % (i,i))
 n=df1
+
 values = n["Casos"]
 print(values)
-values = values.astype("float32")
+values = values.astype("int32")
 
+#normalizar características
 scaler = MinMaxScaler(feature_range=(-1, 1))
 values=values.values.reshape(-1, 1)
-#print (values)
 scaled = scaler.fit_transform(values)
+#Con pasos = 7, toma 7 dias y da resultado a 1(var1(t))
+#print(scaled)
+reframed = series_to_supervised(scaled, PASOS, 1)
+#print (reframed.head())
 
 # Dividir datos para entrenar y para prueba
-reframed = series_to_supervised(scaled, PASOS, 1)
 values = reframed.values
-n_train_days = 223 - (30+PASOS)
+n_train_days = 204 - (30+PASOS)
 train = values[:n_train_days, :]
 test = values[n_train_days:, :]
 # dividir en entradas y salidas
@@ -147,14 +160,17 @@ model = crear_modeloFF()
 history=model.fit(x_train,y_train,epochs=EPOCHS,validation_data=(x_val,y_val),batch_size=PASOS)
 
 results=model.predict(x_val)
-#plt.scatter(range(len(y_val)),y_val,c='g')
-#plt.scatter(range(len(results)),results,c='r')
-#plt.title('validate')
-#plt.show()
+plt.scatter(range(len(y_val)),y_val,c='g')
+plt.scatter(range(len(results)),results,c='r')
+plt.title('validate')
+plt.show()
+
 
 ultimosDias = df1['2020-09-11':'2020-10-11']
+
 values = ultimosDias["Casos"]
-values = values.astype('float32')
+values = values.astype('int32')
+#print(values)
 
 # normalize features
 values=values.values.reshape(-1, 1) # esto lo hacemos porque tenemos 1 sola dimension
@@ -164,7 +180,7 @@ reframed.drop(reframed.columns[[7]], axis=1, inplace=True)
 print(reframed.head(200))
 
 values = reframed.values
-print(len(values))
+#print(len(values))
 
 x_test = values[len(values)-1:, :]
 x_test = x_test.reshape((x_test.shape[0], 1, x_test.shape[1]))
@@ -177,13 +193,16 @@ for i in range(30):
     #print(x_test)
     x_test=agregarNuevoValor(x_test,parcial[0])
 print(results)
+#print("-------------------------------------")
 #adimen = [x for x in results] 
 #print(adimen)   
 inverted = scaler.inverse_transform(results)
+for i in range(len(inverted)):
+    inverted[i] = int(inverted[i])
 
 
 prediccion = pd.DataFrame(inverted)
 prediccion.columns = ['pronostico']
-#print(prediccion)
+print(prediccion)
 prediccion.plot()
 plt.show()
