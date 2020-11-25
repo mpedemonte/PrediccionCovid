@@ -17,49 +17,9 @@ import numpy as np
 import time
 from datetime import datetime
 
-
-#################### TITULO
+#################### TITULO ###################
 st.title('Predicción del covid-19 en Chile')
-
-############# EJEMPLOS CABECERA ###############
-#st.header("EJEMPLO Cabecero")
-#st.subheader("EJEMPLO SubCabecero")
 ###############################################
-
-
-opciones_grafico = ['1', '2', '3']
-
-option = st.selectbox('Elegir gráfico',opciones_grafico)
-st.write('Gráfico seleccionado:', option)
-
-st.subheader(option)
-
-################  GRAFICO #################
-chart_data = pd.DataFrame(
-     np.random.randn(20, 3),
-     columns=['a', 'b', 'c'])
-
-st.line_chart(chart_data)
-###########################################
-
-
-################  CHECKBOX GRAFICO
-if st.checkbox('mostrar segundo gráfico'):
-    chart_data = pd.DataFrame(
-       np.random.randn(20, 3),
-       columns=['a', 'b', 'c'])
-
-    st.line_chart(chart_data)
-###########################################
-
-st.write('Autores: Marco Pedemonte, Juan Pérez, Ignacio Ringler, Nicolás Rivas')
-
-
-
-
-
-
-
 
 
 #########################################################
@@ -72,14 +32,58 @@ st.write('Autores: Marco Pedemonte, Juan Pérez, Ignacio Ringler, Nicolás Rivas
 
 st.sidebar.header("Navegación")
 
-opcion_nav = st.sidebar.radio("",('Casos', 'Defunciones Registro Civil', 'Datos Deis','Ocupación Hospitalaria','Positivad Diaria'))
+opcion_nav = st.sidebar.radio("",('Comuna', 'Región','Nacional'))
 
-options = st.sidebar.multiselect('Elegir regiones',['1', '2', '3', '4'],['1', '3'])
+#options = st.sidebar.multiselect('Elegir regiones',['1', '2', '3', '4'],['1', '3'])
 #st.sidebar.write('You selected:', options)
 
 #########################################################
 #########################################################
+#########################################################
+#########################################################
+#########################################################
+
+dOpciones={"Comuna":["Casos confirmados","Fallecidos"],"Región":["Casos Sintomaticos","Casos Asintomaticos","Fallecidos Diario"],"Nacional":["Fallecidos por rango Etario","Media Movil de Casos Nuevos por 100,000Hab"]}
+
+option = st.selectbox('Elegir',dOpciones[opcion_nav])
+st.write('Gráfico seleccionado:', option)
+st.subheader(option)
+
+################  GRAFICO #################
+if st.checkbox('Show dataframe'):
+    if opcion_nav == "Comuna":
+        if option == "Casos confirmados":
+            #from  import prediccion
+            #st.line_chart(prediccion)
+            st.title('Falta aun')
+        elif option == "Fallecidos":
+            #from  import prediccion
+            #st.line_chart(prediccion)
+            st.title('Falta aun')
+    elif opcion_nav == "Región":
+        if option == "Casos Sintomaticos":
+            from Redes_neuronales_casos_region_sintomaticos import prediccion
+            st.line_chart(prediccion)
+        elif option == "Casos Asintomaticos": 
+            from Redes_neuronales_casos_region_asintomaticos import prediccion
+            st.line_chart(prediccion)
+        elif option == "Fallecidos Diario": 
+            from Redes_neuronales_Region_fallecidos import prediccion
+            st.line_chart(prediccion)
+    elif opcion_nav == "Nacional":
+        if option == "Fallecidos por rango Etario":
+            #from Redes_neuronales_casos_region_asintomaticos import prediccion
+            #st.line_chart(prediccion)
+            st.title('Falta aun')
+        elif option == "Media Movil de Casos Nuevos por 100,000Hab":
+            from Redes_neuronales_casos_nacional import prediccion
+            st.line_chart(prediccion)
+
+    
+
+###########################################
 
 
 
 
+st.write('Autores: Marco Pedemonte, Juan Pérez, Ignacio Ringler, Nicolás Rivas')
