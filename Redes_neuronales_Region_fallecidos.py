@@ -126,7 +126,7 @@ for i in range(1,17):
      exec ("df%s['Fecha'] = pd.to_datetime(f%s)" % (i,i))
      exec ("df%s.index = df%s['Fecha']" % (i,i))
      exec ("df%s['Casos'] = nc%s" % (i,i))
-n=df1
+n=df9
 
 values = n["Casos"]
 print(values)
@@ -166,7 +166,7 @@ plt.title('validate')
 plt.show()
 
 
-ultimosDias = df1['2020-09-11':'2020-10-11']
+ultimosDias = df7['2020-09-11':'2020-10-11']
 
 values = ultimosDias["Casos"]
 values = values.astype('int32')

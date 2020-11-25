@@ -118,7 +118,7 @@ for i in range(1,17):
      exec ("df%s['Fecha'] = pd.to_datetime(f%s)" % (i,i))
      exec ("df%s.index = df%s['Fecha']" % (i,i))
      exec ("df%s['Casos'] = c%s" % (i,i))
-n=df1
+n=df7
 values = n["Casos"]
 print(values)
 values = values.astype("float32")
@@ -153,7 +153,7 @@ results=model.predict(x_val)
 #plt.title('validate')
 #plt.show()
 
-ultimosDias = df1['2020-09-11':'2020-10-11']
+ultimosDias = df7['2020-09-11':'2020-10-11']
 values = ultimosDias["Casos"]
 values = values.astype('float32')
 
@@ -182,6 +182,8 @@ print(results)
 #print(adimen)   
 inverted = scaler.inverse_transform(results)
 
+for i in range(len(inverted)):
+    inverted[i] = int(inverted[i])
 
 prediccion = pd.DataFrame(inverted)
 prediccion.columns = ['pronostico']

@@ -181,6 +181,8 @@ print(results)
 #print(adimen)   
 inverted = scaler.inverse_transform(results)
 
+for i in range(len(inverted)):
+    inverted[i] = int(inverted[i])
 
 prediccion = pd.DataFrame(inverted)
 prediccion.columns = ['pronostico']
