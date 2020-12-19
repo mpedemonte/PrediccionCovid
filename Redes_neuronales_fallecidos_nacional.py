@@ -55,26 +55,62 @@ def agregarNuevoValor(x_test,nuevoValor):
 
 myclient = pymongo.MongoClient("mongodb://localhost:27017/")
 mydb = myclient["PrediccionCovid"]
-mycol = mydb["Nacional_Media_Movil"]
+mycol = mydb["Nacional_Fallecidos"]
 Fecha =[]
-Media = []
+Casos = []
+Grupo = []
+f1,f2 ,f3,f4,f5,f6,f7= [],[],[],[],[],[],[]
+c1,c2 ,c3,c4,c5,c6,c7= [],[],[],[],[],[],[]
+nc1,nc2 ,nc3,nc4,nc5,nc6,nc7= [],[],[],[],[],[],[]
 
 for x in mycol.find():
+    Grupo.append(x["Grupo_Etario"])
     Fecha.append(x["Fecha"])
-    Media.append(float(x["Media"]))
+    Casos.append(float(x["Media"]))
+print(len(Grupo))
+for i in range(len(Grupo)):
+    if Grupo[i] == "<=39":
+        f1.append(Fecha[i])
+        c1.append(Casos[i])
+    if Grupo[i] == "40-49":
+        f2.append(Fecha[i])
+        c2.append(Casos[i])
+    if Grupo[i] == "50-59":
+        f3.append(Fecha[i])
+        c3.append(Casos[i])
+    if Grupo[i] == "60-69":
+        f4.append(Fecha[i])
+        c4.append(Casos[i])
+    if Grupo[i] == "70-79":
+        f5.append(Fecha[i])
+        c5.append(Casos[i])
+    if Grupo[i] == "80-89":
+        f6.append(Fecha[i])
+        c6.append(Casos[i])
+    if Grupo[i] == ">=90":
+        f7.append(Fecha[i])
+        c7.append(Casos[i])
+for n in range(1,8):
+    print(n)
+    for i in range(len(c1)):
+        if i == 0:
+            exec("nc%s.append(c%s[i])" % (n,n))
+        else:
+            exec("nc%s.append(c%s[i]-c%s[i-1])" %(n,n,n))
+for i in range(1,8):
+     exec ("df%s = pd.DataFrame()" %(i))
+     exec ("df%s['Fecha'] = pd.to_datetime(f%s)" % (i,i))
+     exec ("df%s.index = df%s['Fecha']" % (i,i))
+     exec ("df%s['Casos'] = nc%s" % (i,i))
 
-df = pd.DataFrame()
-df["Fecha"] = pd.to_datetime(Fecha)
-df.index = df["Fecha"]
-df["Media"] = Media
+
+n=df7
+
+values = n["Casos"]
+values = values.astype("int32")
+print(values)
 
 
-
-#cargar dataset
-values = df["Media"]
-
-#Asegurarse que los datos estan en float
-values = values.astype("float32")
 #normalizar características
 scaler = MinMaxScaler(feature_range=(-1, 1))
 values=values.values.reshape(-1, 1)
@@ -115,10 +151,10 @@ plt.title('validate')
 #plt.show()
 
 
-mes = df['2020-09-11':'2020-10-11']
+mes = n['2020-09-11':'2020-10-11']
 
-values = mes["Media"]
-values = values.astype('float32')
+values = mes["Casos"]
+values = values.astype('int32')
 
 
 # normalizar características
