@@ -34,8 +34,45 @@ st.sidebar.header("Navegación")
 
 opcion_nav = st.sidebar.radio("",('Comuna', 'Región','Nacional'))
 
-#options = st.sidebar.multiselect('Elegir regiones',['1', '2', '3', '4'],['1', '3'])
-#st.sidebar.write('You selected:', options)
+
+
+dDic={
+    "Arica y Parinacota":1,
+    "Tarapacá":2,
+    "Antofagasta":3,
+    "Atacama":4,
+    "Coquimbo":5,
+    "Valparaíso":6,
+    "Metropolitana":7,
+    "O’Higgins":8,
+    "Maule":9,
+    "Ñuble":10,
+    "Biobío":11,
+    "Araucanía":12,
+    "Los Ríos":13,
+    "Los Lagos":14,
+    "Aysén":15,
+    "Magallanes":16
+}
+aRegiones=["Arica y Parinacota",
+    "Tarapacá",
+    "Antofagasta",
+    "Atacama",
+    "Coquimbo",
+    "Valparaíso",
+    "Metropolitana",
+    "O’Higgins",
+    "Maule",
+    "Ñuble",
+    "Biobío",
+    "Araucanía",
+    "Los Ríos",
+    "Los Lagos",
+    "Aysén",
+    "Magallanes"]
+
+if opcion_nav=="Región":
+    opcion = st.sidebar.selectbox('Elegir region',aRegiones)
 
 #########################################################
 #########################################################
@@ -48,7 +85,8 @@ dOpciones={"Comuna":["Casos confirmados","Fallecidos"],"Región":["Casos Sintoma
 option = st.selectbox('Elegir',dOpciones[opcion_nav])
 st.write('Gráfico seleccionado:', option)
 st.subheader(option)
-
+if opcion_nav=="Región":
+    st.write('Region Selecionada: %s'%(opcion))
 ################  GRAFICO #################
 if st.checkbox('Show dataframe'):
     if opcion_nav == "Comuna":
@@ -62,16 +100,17 @@ if st.checkbox('Show dataframe'):
             st.title('Falta aun')
     elif opcion_nav == "Región":
         if option == "Casos Sintomaticos":
-            from Redes_neuronales_casos_region_sintomaticos import prediccion
-            st.line_chart(prediccion)
+            import Redes_neuronales_casos_region_sintomaticos as cR_S
+            #from Redes_neuronales_casos_region_sintomaticos import prediccion
+            st.line_chart(cR_S.busca(int(dDic[opcion])))
         elif option == "Casos Asintomaticos": 
             import Redes_neuronales_casos_region_asintomaticos as cR_A
             #from Redes_neuronales_casos_region_asintomaticos import prediccion
-            opcion=1
-            st.line_chart(cR_A.busca(opcion))
+            st.line_chart(cR_A.busca(int(dDic[opcion])))
         elif option == "Fallecidos Diario": 
-            from Redes_neuronales_Region_fallecidos import prediccion
-            st.line_chart(prediccion)
+            import Redes_neuronales_Region_fallecidos as cR_F
+            #from Redes_neuronales_Region_fallecidos import prediccion
+            st.line_chart(cR_F.busca(int(dDic[opcion])))
     elif opcion_nav == "Nacional":
         if option == "Fallecidos por rango Etario":
             #from Redes_neuronales_casos_region_asintomaticos import prediccion
@@ -84,6 +123,7 @@ if st.checkbox('Show dataframe'):
     
 
 ###########################################
+
 
 
 
