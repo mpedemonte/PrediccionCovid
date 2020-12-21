@@ -65,8 +65,10 @@ if st.checkbox('Show dataframe'):
             from Redes_neuronales_casos_region_sintomaticos import prediccion
             st.line_chart(prediccion)
         elif option == "Casos Asintomaticos": 
-            from Redes_neuronales_casos_region_asintomaticos import prediccion
-            st.line_chart(prediccion)
+            import Redes_neuronales_casos_region_asintomaticos as cR_A
+            #from Redes_neuronales_casos_region_asintomaticos import prediccion
+            opcion=1
+            st.line_chart(cR_A.busca(opcion))
         elif option == "Fallecidos Diario": 
             from Redes_neuronales_Region_fallecidos import prediccion
             st.line_chart(prediccion)
