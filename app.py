@@ -113,9 +113,8 @@ if st.checkbox('Show dataframe'):
             st.line_chart(cR_F.busca(int(dDic[opcion])))
     elif opcion_nav == "Nacional":
         if option == "Fallecidos por rango Etario":
-            #from Redes_neuronales_casos_region_asintomaticos import prediccion
-            #st.line_chart(prediccion)
-            st.title('Falta aun')
+            from Redes_neuronales_fallecidos_nacional import prediccion
+            st.line_chart(prediccion)
         elif option == "Media Movil de Casos Nuevos por 100,000Hab":
             from Redes_neuronales_casos_nacional import prediccion
             st.line_chart(prediccion)

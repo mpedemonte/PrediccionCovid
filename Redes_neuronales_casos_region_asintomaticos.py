@@ -117,7 +117,6 @@ def busca(opcion):
             f16.append(Fecha[i])
             c16.append(Casos[i])
     
-    print(len(f1))
 
     """for i in range(1,17):
         exec ("df%s = pd.DataFrame()" %(i))
