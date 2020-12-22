@@ -842,6 +842,8 @@ if opcion_nav == "Comuna":
         opcion_comuna = st.sidebar.selectbox('Elegir Comuna',aComArica)
     if opcion_region == "Tarapacá":
         opcion_comuna = st.sidebar.selectbox('Elegir Comuna',aComTarapaca)
+    if opcion_region == "Antofagasta":
+        opcion_comuna = st.sidebar.selectbox('Elegir Comuna',aComAntofagasta)
     if opcion_region == "Atacama":
         opcion_comuna = st.sidebar.selectbox('Elegir Comuna',aComAtacama)
     if opcion_region == "Coquimbo":
