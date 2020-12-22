@@ -892,9 +892,8 @@ if opcion_nav == "Comuna":
 if st.checkbox('Generar gráfico'):
     if opcion_nav == "Comuna":
         if option == "Casos confirmados":
-            #from  import prediccion
-            #st.line_chart(prediccion)
-            st.title('Falta aun')
+            import Redes_neuronales_casos_comuna as cC
+            st.line_chart(cC.busca(int(dDic_comunas[opcion_comuna])))
         elif option == "Fallecidos":
             import Redes_neuronales_fallecidos_comuna as fC
             st.line_chart(fC.busca(int(dDic_comunas[opcion_comuna])))
