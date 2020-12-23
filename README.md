@@ -6,6 +6,27 @@ La siguiente app web realiza una prediccion sobre el covid en chile por medio de
 
 La base de datos se puede construir descargando los archivos csv y con los scripts correspondientes.
 
+## Ejecución
+
+Para la ejecuccion con anaconda se utilizan los siguientes comandos:
+
+* CREACION ENTORNO VIRTUAL EN CONDA LLAMADO STREAMLIT
+```
+conda create -n streamlit -y
+```
+* ACTIVAR ENTORNO VIRTUAL
+```
+conda activate streamlit
+```
+* INSTALAR STREAMLIT
+```
+pip install streamlit
+```
+* INICIAR APLICACIÓN
+```
+streamlit run ./app.py
+```
+
 ## Construido con 🛠️
 
 * [Python 3.8](https://www.python.org)
