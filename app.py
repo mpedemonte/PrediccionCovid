@@ -21,7 +21,10 @@ st.sidebar.header("Navegación")
 opcion_nav = st.sidebar.radio("",('Comuna', 'Región','Nacional'))
 
 
-if opcion_nav=="Nacional":  
+dOpciones={"Comuna":["Casos confirmados","Fallecidos"],"Región":["Casos Sintomaticos","Casos Asintomaticos","Fallecidos Diario"],"Nacional":["Fallecidos por rango Etario","Media Movil de Casos Nuevos por 100,000Hab"]}
+option = st.selectbox('Elegir',dOpciones[opcion_nav])
+
+if opcion_nav=="Nacional" and option=="Fallecidos por rango Etario":  
     opcion_rango = st.sidebar.selectbox('Elegir rango',aRango)
 
 if opcion_nav=="Región":
@@ -62,17 +65,15 @@ if opcion_nav == "Comuna":
     if opcion_region == "Magallanes":
         opcion_comuna = st.sidebar.selectbox('Elegir Comuna',aComMagallanes)
 
-dOpciones={"Comuna":["Casos confirmados","Fallecidos"],"Región":["Casos Sintomaticos","Casos Asintomaticos","Fallecidos Diario"],"Nacional":["Fallecidos por rango Etario","Media Movil de Casos Nuevos por 100,000Hab"]}
 
-option = st.selectbox('Elegir',dOpciones[opcion_nav])
 st.write('Gráfico seleccionado:', option)
 st.subheader(option)
 if opcion_nav=="Región":
     st.write('Region Selecionada: %s'%(opcion_region))
-if opcion_nav=="Nacional":
+if opcion_nav=="Nacional" and option=="Fallecidos por rango Etario":
     st.write('Rango Seleccionado: %s'%(opcion_rango))
 if opcion_nav == "Comuna":
-    st.write('Rango Seleccionado: %s'%(opcion_comuna))
+    st.write('Comuna seleccionada: %s'%(opcion_comuna))
 ################  GRAFICO #################
 if st.checkbox('Generar gráfico'):
     if opcion_nav == "Comuna":
