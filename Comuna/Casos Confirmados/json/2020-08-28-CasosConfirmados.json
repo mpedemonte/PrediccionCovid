@@ -1,0 +1,1122 @@
+{
+    "2020-08-28": {
+        "Arica y Parinacota": {
+            "Arica": {
+                "Casos Confirmados": "6783.0"
+            },
+            "Camarones": {
+                "Casos Confirmados": "25.0"
+            },
+            "General Lagos": {
+                "Casos Confirmados": "62.0"
+            },
+            "Putre": {
+                "Casos Confirmados": "50.0"
+            },
+            "Desconocido Arica y Parinacota": {
+                "Casos Confirmados": "23.0"
+            }
+        },
+        "Tarapacá": {
+            "Alto Hospicio": {
+                "Casos Confirmados": "3214.0"
+            },
+            "Camina": {
+                "Casos Confirmados": "59.0"
+            },
+            "Colchane": {
+                "Casos Confirmados": "98.0"
+            },
+            "Huara": {
+                "Casos Confirmados": "159.0"
+            },
+            "Iquique": {
+                "Casos Confirmados": "5922.0"
+            },
+            "Pica": {
+                "Casos Confirmados": "366.0"
+            },
+            "Pozo Almonte": {
+                "Casos Confirmados": "919.0"
+            },
+            "Desconocido Tarapaca": {
+                "Casos Confirmados": "443.0"
+            }
+        },
+        "Antofagasta": {
+            "Antofagasta": {
+                "Casos Confirmados": "9605.0"
+            },
+            "Calama": {
+                "Casos Confirmados": "7122.0"
+            },
+            "Maria Elena": {
+                "Casos Confirmados": "340.0"
+            },
+            "Mejillones": {
+                "Casos Confirmados": "545.0"
+            },
+            "Ollague": {
+                "Casos Confirmados": "24.0"
+            },
+            "San Pedro de Atacama": {
+                "Casos Confirmados": "326.0"
+            },
+            "Sierra Gorda": {
+                "Casos Confirmados": "78.0"
+            },
+            "Taltal": {
+                "Casos Confirmados": "168.0"
+            },
+            "Tocopilla": {
+                "Casos Confirmados": "322.0"
+            },
+            "Desconocido Antofagasta": {
+                "Casos Confirmados": "271.0"
+            }
+        },
+        "Atacama": {
+            "Alto del Carmen": {
+                "Casos Confirmados": "36.0"
+            },
+            "Caldera": {
+                "Casos Confirmados": "251.0"
+            },
+            "Chanaral": {
+                "Casos Confirmados": "91.0"
+            },
+            "Copiapo": {
+                "Casos Confirmados": "3850.0"
+            },
+            "Diego de Almagro": {
+                "Casos Confirmados": "139.0"
+            },
+            "Freirina": {
+                "Casos Confirmados": "123.0"
+            },
+            "Huasco": {
+                "Casos Confirmados": "74.0"
+            },
+            "Tierra Amarilla": {
+                "Casos Confirmados": "314.0"
+            },
+            "Vallenar": {
+                "Casos Confirmados": "664.0"
+            },
+            "Desconocido Atacama": {
+                "Casos Confirmados": "35.0"
+            }
+        },
+        "Coquimbo": {
+            "Andacollo": {
+                "Casos Confirmados": "85.0"
+            },
+            "Canela": {
+                "Casos Confirmados": "71.0"
+            },
+            "Combarbala": {
+                "Casos Confirmados": "65.0"
+            },
+            "Coquimbo": {
+                "Casos Confirmados": "3854.0"
+            },
+            "Illapel": {
+                "Casos Confirmados": "398.0"
+            },
+            "La Higuera": {
+                "Casos Confirmados": "98.0"
+            },
+            "La Serena": {
+                "Casos Confirmados": "3084.0"
+            },
+            "Los Vilos": {
+                "Casos Confirmados": "224.0"
+            },
+            "Monte Patria": {
+                "Casos Confirmados": "399.0"
+            },
+            "Ovalle": {
+                "Casos Confirmados": "1995.0"
+            },
+            "Paiguano": {
+                "Casos Confirmados": "17.0"
+            },
+            "Punitaqui": {
+                "Casos Confirmados": "141.0"
+            },
+            "Rio Hurtado": {
+                "Casos Confirmados": "41.0"
+            },
+            "Salamanca": {
+                "Casos Confirmados": "187.0"
+            },
+            "Vicuna": {
+                "Casos Confirmados": "196.0"
+            },
+            "Desconocido Coquimbo": {
+                "Casos Confirmados": "141.0"
+            }
+        },
+        "Valparaíso": {
+            "Algarrobo": {
+                "Casos Confirmados": "129.0"
+            },
+            "Cabildo": {
+                "Casos Confirmados": "372.0"
+            },
+            "Calera": {
+                "Casos Confirmados": "1137.0"
+            },
+            "Calle Larga": {
+                "Casos Confirmados": "298.0"
+            },
+            "Cartagena": {
+                "Casos Confirmados": "227.0"
+            },
+            "Casablanca": {
+                "Casos Confirmados": "428.0"
+            },
+            "Catemu": {
+                "Casos Confirmados": "222.0"
+            },
+            "Concon": {
+                "Casos Confirmados": "616.0"
+            },
+            "El Quisco": {
+                "Casos Confirmados": "213.0"
+            },
+            "El Tabo": {
+                "Casos Confirmados": "260.0"
+            },
+            "Hijuelas": {
+                "Casos Confirmados": "290.0"
+            },
+            "Isla de Pascua": {
+                "Casos Confirmados": "5.0"
+            },
+            "Juan Fernandez": {
+                "Casos Confirmados": "0.0"
+            },
+            "La Cruz": {
+                "Casos Confirmados": "297.0"
+            },
+            "La Ligua": {
+                "Casos Confirmados": "673.0"
+            },
+            "Limache": {
+                "Casos Confirmados": "1044.0"
+            },
+            "Llaillay": {
+                "Casos Confirmados": "426.0"
+            },
+            "Los Andes": {
+                "Casos Confirmados": "1102.0"
+            },
+            "Nogales": {
+                "Casos Confirmados": "359.0"
+            },
+            "Olmue": {
+                "Casos Confirmados": "278.0"
+            },
+            "Panquehue": {
+                "Casos Confirmados": "119.0"
+            },
+            "Papudo": {
+                "Casos Confirmados": "118.0"
+            },
+            "Petorca": {
+                "Casos Confirmados": "146.0"
+            },
+            "Puchuncavi": {
+                "Casos Confirmados": "198.0"
+            },
+            "Putaendo": {
+                "Casos Confirmados": "251.0"
+            },
+            "Quillota": {
+                "Casos Confirmados": "2076.0"
+            },
+            "Quilpue": {
+                "Casos Confirmados": "2057.0"
+            },
+            "Quintero": {
+                "Casos Confirmados": "477.0"
+            },
+            "Rinconada": {
+                "Casos Confirmados": "175.0"
+            },
+            "San Antonio": {
+                "Casos Confirmados": "1525.0"
+            },
+            "San Esteban": {
+                "Casos Confirmados": "252.0"
+            },
+            "San Felipe": {
+                "Casos Confirmados": "1337.0"
+            },
+            "Santa Maria": {
+                "Casos Confirmados": "287.0"
+            },
+            "Santo Domingo": {
+                "Casos Confirmados": "164.0"
+            },
+            "Valparaiso": {
+                "Casos Confirmados": "5519.0"
+            },
+            "Villa Alemana": {
+                "Casos Confirmados": "2011.0"
+            },
+            "Vina del Mar": {
+                "Casos Confirmados": "5199.0"
+            },
+            "Zapallar": {
+                "Casos Confirmados": "103.0"
+            },
+            "Desconocido Valparaiso": {
+                "Casos Confirmados": "410.0"
+            }
+        },
+        "Metropolitana": {
+            "Alhue": {
+                "Casos Confirmados": "291.0"
+            },
+            "Buin": {
+                "Casos Confirmados": "2620.0"
+            },
+            "Calera de Tango": {
+                "Casos Confirmados": "616.0"
+            },
+            "Cerrillos": {
+                "Casos Confirmados": "3177.0"
+            },
+            "Cerro Navia": {
+                "Casos Confirmados": "6897.0"
+            },
+            "Colina": {
+                "Casos Confirmados": "4778.0"
+            },
+            "Conchali": {
+                "Casos Confirmados": "6454.0"
+            },
+            "Curacavi": {
+                "Casos Confirmados": "964.0"
+            },
+            "El Bosque": {
+                "Casos Confirmados": "6699.0"
+            },
+            "El Monte": {
+                "Casos Confirmados": "1261.0"
+            },
+            "Estacion Central": {
+                "Casos Confirmados": "6409.0"
+            },
+            "Huechuraba": {
+                "Casos Confirmados": "4022.0"
+            },
+            "Independencia": {
+                "Casos Confirmados": "6706.0"
+            },
+            "Isla de Maipo": {
+                "Casos Confirmados": "1182.0"
+            },
+            "La Cisterna": {
+                "Casos Confirmados": "3370.0"
+            },
+            "La Florida": {
+                "Casos Confirmados": "14079.0"
+            },
+            "La Granja": {
+                "Casos Confirmados": "7177.0"
+            },
+            "La Pintana": {
+                "Casos Confirmados": "10709.0"
+            },
+            "La Reina": {
+                "Casos Confirmados": "2360.0"
+            },
+            "Lampa": {
+                "Casos Confirmados": "3691.0"
+            },
+            "Las Condes": {
+                "Casos Confirmados": "6127.0"
+            },
+            "Lo Barnechea": {
+                "Casos Confirmados": "3506.0"
+            },
+            "Lo Espejo": {
+                "Casos Confirmados": "4450.0"
+            },
+            "Lo Prado": {
+                "Casos Confirmados": "5144.0"
+            },
+            "Macul": {
+                "Casos Confirmados": "5131.0"
+            },
+            "Maipu": {
+                "Casos Confirmados": "15300.0"
+            },
+            "Maria Pinto": {
+                "Casos Confirmados": "412.0"
+            },
+            "Melipilla": {
+                "Casos Confirmados": "4046.0"
+            },
+            "Nunoa": {
+                "Casos Confirmados": "5700.0"
+            },
+            "Padre Hurtado": {
+                "Casos Confirmados": "2246.0"
+            },
+            "Paine": {
+                "Casos Confirmados": "2023.0"
+            },
+            "Pedro Aguirre Cerda": {
+                "Casos Confirmados": "4485.0"
+            },
+            "Penaflor": {
+                "Casos Confirmados": "3060.0"
+            },
+            "Penalolen": {
+                "Casos Confirmados": "12103.0"
+            },
+            "Pirque": {
+                "Casos Confirmados": "1150.0"
+            },
+            "Providencia": {
+                "Casos Confirmados": "3363.0"
+            },
+            "Pudahuel": {
+                "Casos Confirmados": "10218.0"
+            },
+            "Puente Alto": {
+                "Casos Confirmados": "24162.0"
+            },
+            "Quilicura": {
+                "Casos Confirmados": "9457.0"
+            },
+            "Quinta Normal": {
+                "Casos Confirmados": "6334.0"
+            },
+            "Recoleta": {
+                "Casos Confirmados": "8745.0"
+            },
+            "Renca": {
+                "Casos Confirmados": "9073.0"
+            },
+            "San Bernardo": {
+                "Casos Confirmados": "11625.0"
+            },
+            "San Joaquin": {
+                "Casos Confirmados": "5180.0"
+            },
+            "San Jose de Maipo": {
+                "Casos Confirmados": "692.0"
+            },
+            "San Miguel": {
+                "Casos Confirmados": "5465.0"
+            },
+            "San Pedro": {
+                "Casos Confirmados": "250.0"
+            },
+            "San Ramon": {
+                "Casos Confirmados": "4621.0"
+            },
+            "Santiago": {
+                "Casos Confirmados": "15311.0"
+            },
+            "Talagante": {
+                "Casos Confirmados": "1802.0"
+            },
+            "Tiltil": {
+                "Casos Confirmados": "603.0"
+            },
+            "Vitacura": {
+                "Casos Confirmados": "1609.0"
+            },
+            "Desconocido Metropolitana": {
+                "Casos Confirmados": "15410.0"
+            }
+        },
+        "O’Higgins": {
+            "Chepica": {
+                "Casos Confirmados": "194.0"
+            },
+            "Chimbarongo": {
+                "Casos Confirmados": "228.0"
+            },
+            "Codegua": {
+                "Casos Confirmados": "285.0"
+            },
+            "Coinco": {
+                "Casos Confirmados": "138.0"
+            },
+            "Coltauco": {
+                "Casos Confirmados": "352.0"
+            },
+            "Donihue": {
+                "Casos Confirmados": "479.0"
+            },
+            "Graneros": {
+                "Casos Confirmados": "598.0"
+            },
+            "La Estrella": {
+                "Casos Confirmados": "38.0"
+            },
+            "Las Cabras": {
+                "Casos Confirmados": "368.0"
+            },
+            "Litueche": {
+                "Casos Confirmados": "94.0"
+            },
+            "Lolol": {
+                "Casos Confirmados": "67.0"
+            },
+            "Machali": {
+                "Casos Confirmados": "1060.0"
+            },
+            "Malloa": {
+                "Casos Confirmados": "165.0"
+            },
+            "Marchihue": {
+                "Casos Confirmados": "30.0"
+            },
+            "Mostazal": {
+                "Casos Confirmados": "313.0"
+            },
+            "Nancagua": {
+                "Casos Confirmados": "128.0"
+            },
+            "Navidad": {
+                "Casos Confirmados": "76.0"
+            },
+            "Olivar": {
+                "Casos Confirmados": "265.0"
+            },
+            "Palmilla": {
+                "Casos Confirmados": "115.0"
+            },
+            "Paredones": {
+                "Casos Confirmados": "35.0"
+            },
+            "Peralillo": {
+                "Casos Confirmados": "73.0"
+            },
+            "Peumo": {
+                "Casos Confirmados": "142.0"
+            },
+            "Pichidegua": {
+                "Casos Confirmados": "359.0"
+            },
+            "Pichilemu": {
+                "Casos Confirmados": "60.0"
+            },
+            "Placilla": {
+                "Casos Confirmados": "77.0"
+            },
+            "Pumanque": {
+                "Casos Confirmados": "5.0"
+            },
+            "Quinta de Tilcoco": {
+                "Casos Confirmados": "132.0"
+            },
+            "Rancagua": {
+                "Casos Confirmados": "6555.0"
+            },
+            "Rengo": {
+                "Casos Confirmados": "1240.0"
+            },
+            "Requinoa": {
+                "Casos Confirmados": "457.0"
+            },
+            "San Fernando": {
+                "Casos Confirmados": "732.0"
+            },
+            "San Vicente": {
+                "Casos Confirmados": "740.0"
+            },
+            "Santa Cruz": {
+                "Casos Confirmados": "364.0"
+            },
+            "Desconocido O’Higgins": {
+                "Casos Confirmados": "42.0"
+            }
+        },
+        "Maule": {
+            "Cauquenes": {
+                "Casos Confirmados": "429.0"
+            },
+            "Chanco": {
+                "Casos Confirmados": "63.0"
+            },
+            "Colbun": {
+                "Casos Confirmados": "273.0"
+            },
+            "Constitucion": {
+                "Casos Confirmados": "445.0"
+            },
+            "Curepto": {
+                "Casos Confirmados": "107.0"
+            },
+            "Curico": {
+                "Casos Confirmados": "2343.0"
+            },
+            "Empedrado": {
+                "Casos Confirmados": "36.0"
+            },
+            "Hualane": {
+                "Casos Confirmados": "117.0"
+            },
+            "Licanten": {
+                "Casos Confirmados": "26.0"
+            },
+            "Linares": {
+                "Casos Confirmados": "1065.0"
+            },
+            "Longavi": {
+                "Casos Confirmados": "343.0"
+            },
+            "Maule": {
+                "Casos Confirmados": "595.0"
+            },
+            "Molina": {
+                "Casos Confirmados": "376.0"
+            },
+            "Parral": {
+                "Casos Confirmados": "282.0"
+            },
+            "Pelarco": {
+                "Casos Confirmados": "141.0"
+            },
+            "Pelluhue": {
+                "Casos Confirmados": "97.0"
+            },
+            "Pencahue": {
+                "Casos Confirmados": "74.0"
+            },
+            "Rauco": {
+                "Casos Confirmados": "124.0"
+            },
+            "Retiro": {
+                "Casos Confirmados": "177.0"
+            },
+            "Rio Claro": {
+                "Casos Confirmados": "122.0"
+            },
+            "Romeral": {
+                "Casos Confirmados": "310.0"
+            },
+            "Sagrada Familia": {
+                "Casos Confirmados": "130.0"
+            },
+            "San Clemente": {
+                "Casos Confirmados": "653.0"
+            },
+            "San Javier": {
+                "Casos Confirmados": "554.0"
+            },
+            "San Rafael": {
+                "Casos Confirmados": "184.0"
+            },
+            "Talca": {
+                "Casos Confirmados": "2519.0"
+            },
+            "Teno": {
+                "Casos Confirmados": "349.0"
+            },
+            "Vichuquen": {
+                "Casos Confirmados": "6.0"
+            },
+            "Villa Alegre": {
+                "Casos Confirmados": "177.0"
+            },
+            "Yerbas Buenas": {
+                "Casos Confirmados": "177.0"
+            },
+            "Desconocido Maule": {
+                "Casos Confirmados": "7.0"
+            }
+        },
+        "Ñuble": {
+            "Bulnes": {
+                "Casos Confirmados": "557.0"
+            },
+            "Chillan": {
+                "Casos Confirmados": "2357.0"
+            },
+            "Chillan Viejo": {
+                "Casos Confirmados": "382.0"
+            },
+            "Cobquecura": {
+                "Casos Confirmados": "20.0"
+            },
+            "Coelemu": {
+                "Casos Confirmados": "92.0"
+            },
+            "Coihueco": {
+                "Casos Confirmados": "268.0"
+            },
+            "El Carmen": {
+                "Casos Confirmados": "124.0"
+            },
+            "Ninhue": {
+                "Casos Confirmados": "55.0"
+            },
+            "Niquen": {
+                "Casos Confirmados": "137.0"
+            },
+            "Pemuco": {
+                "Casos Confirmados": "115.0"
+            },
+            "Pinto": {
+                "Casos Confirmados": "79.0"
+            },
+            "Portezuelo": {
+                "Casos Confirmados": "26.0"
+            },
+            "Quillon": {
+                "Casos Confirmados": "214.0"
+            },
+            "Quirihue": {
+                "Casos Confirmados": "121.0"
+            },
+            "Ranquil": {
+                "Casos Confirmados": "52.0"
+            },
+            "San Carlos": {
+                "Casos Confirmados": "575.0"
+            },
+            "San Fabian": {
+                "Casos Confirmados": "17.0"
+            },
+            "San Ignacio": {
+                "Casos Confirmados": "185.0"
+            },
+            "San Nicolas": {
+                "Casos Confirmados": "149.0"
+            },
+            "Treguaco": {
+                "Casos Confirmados": "26.0"
+            },
+            "Yungay": {
+                "Casos Confirmados": "152.0"
+            },
+            "Desconocido Nuble": {
+                "Casos Confirmados": "13.0"
+            }
+        },
+        "Biobío": {
+            "Alto Biobio": {
+                "Casos Confirmados": "178.0"
+            },
+            "Antuco": {
+                "Casos Confirmados": "65.0"
+            },
+            "Arauco": {
+                "Casos Confirmados": "558.0"
+            },
+            "Cabrero": {
+                "Casos Confirmados": "197.0"
+            },
+            "Canete": {
+                "Casos Confirmados": "227.0"
+            },
+            "Chiguayante": {
+                "Casos Confirmados": "1043.0"
+            },
+            "Concepcion": {
+                "Casos Confirmados": "2879.0"
+            },
+            "Contulmo": {
+                "Casos Confirmados": "56.0"
+            },
+            "Coronel": {
+                "Casos Confirmados": "1959.0"
+            },
+            "Curanilahue": {
+                "Casos Confirmados": "267.0"
+            },
+            "Florida": {
+                "Casos Confirmados": "93.0"
+            },
+            "Hualpen": {
+                "Casos Confirmados": "1290.0"
+            },
+            "Hualqui": {
+                "Casos Confirmados": "382.0"
+            },
+            "Laja": {
+                "Casos Confirmados": "197.0"
+            },
+            "Lebu": {
+                "Casos Confirmados": "73.0"
+            },
+            "Los Alamos": {
+                "Casos Confirmados": "198.0"
+            },
+            "Los Angeles": {
+                "Casos Confirmados": "1449.0"
+            },
+            "Lota": {
+                "Casos Confirmados": "614.0"
+            },
+            "Mulchen": {
+                "Casos Confirmados": "198.0"
+            },
+            "Nacimiento": {
+                "Casos Confirmados": "219.0"
+            },
+            "Negrete": {
+                "Casos Confirmados": "178.0"
+            },
+            "Penco": {
+                "Casos Confirmados": "905.0"
+            },
+            "Quilaco": {
+                "Casos Confirmados": "28.0"
+            },
+            "Quilleco": {
+                "Casos Confirmados": "86.0"
+            },
+            "San Pedro de la Paz": {
+                "Casos Confirmados": "1390.0"
+            },
+            "San Rosendo": {
+                "Casos Confirmados": "37.0"
+            },
+            "Santa Barbara": {
+                "Casos Confirmados": "189.0"
+            },
+            "Santa Juana": {
+                "Casos Confirmados": "123.0"
+            },
+            "Talcahuano": {
+                "Casos Confirmados": "2156.0"
+            },
+            "Tirua": {
+                "Casos Confirmados": "44.0"
+            },
+            "Tome": {
+                "Casos Confirmados": "838.0"
+            },
+            "Tucapel": {
+                "Casos Confirmados": "172.0"
+            },
+            "Yumbel": {
+                "Casos Confirmados": "246.0"
+            },
+            "Desconocido Biobio": {
+                "Casos Confirmados": "201.0"
+            }
+        },
+        "Araucanía": {
+            "Angol": {
+                "Casos Confirmados": "580.0"
+            },
+            "Carahue": {
+                "Casos Confirmados": "149.0"
+            },
+            "Cholchol": {
+                "Casos Confirmados": "42.0"
+            },
+            "Collipulli": {
+                "Casos Confirmados": "224.0"
+            },
+            "Cunco": {
+                "Casos Confirmados": "126.0"
+            },
+            "Curacautin": {
+                "Casos Confirmados": "43.0"
+            },
+            "Curarrehue": {
+                "Casos Confirmados": "5.0"
+            },
+            "Ercilla": {
+                "Casos Confirmados": "91.0"
+            },
+            "Freire": {
+                "Casos Confirmados": "129.0"
+            },
+            "Galvarino": {
+                "Casos Confirmados": "134.0"
+            },
+            "Gorbea": {
+                "Casos Confirmados": "46.0"
+            },
+            "Lautaro": {
+                "Casos Confirmados": "216.0"
+            },
+            "Loncoche": {
+                "Casos Confirmados": "82.0"
+            },
+            "Lonquimay": {
+                "Casos Confirmados": "72.0"
+            },
+            "Los Sauces": {
+                "Casos Confirmados": "60.0"
+            },
+            "Lumaco": {
+                "Casos Confirmados": "44.0"
+            },
+            "Melipeuco": {
+                "Casos Confirmados": "19.0"
+            },
+            "Nueva Imperial": {
+                "Casos Confirmados": "159.0"
+            },
+            "Padre Las Casas": {
+                "Casos Confirmados": "261.0"
+            },
+            "Perquenco": {
+                "Casos Confirmados": "73.0"
+            },
+            "Pitrufquen": {
+                "Casos Confirmados": "115.0"
+            },
+            "Pucon": {
+                "Casos Confirmados": "94.0"
+            },
+            "Puren": {
+                "Casos Confirmados": "46.0"
+            },
+            "Renaico": {
+                "Casos Confirmados": "62.0"
+            },
+            "Saavedra": {
+                "Casos Confirmados": "98.0"
+            },
+            "Temuco": {
+                "Casos Confirmados": "1393.0"
+            },
+            "Teodoro Schmidt": {
+                "Casos Confirmados": "31.0"
+            },
+            "Tolten": {
+                "Casos Confirmados": "18.0"
+            },
+            "Traiguen": {
+                "Casos Confirmados": "64.0"
+            },
+            "Victoria": {
+                "Casos Confirmados": "253.0"
+            },
+            "Vilcun": {
+                "Casos Confirmados": "202.0"
+            },
+            "Villarrica": {
+                "Casos Confirmados": "110.0"
+            },
+            "Desconocido Araucania": {
+                "Casos Confirmados": "1.0"
+            }
+        },
+        "Los Ríos": {
+            "Corral": {
+                "Casos Confirmados": "26.0"
+            },
+            "Futrono": {
+                "Casos Confirmados": "62.0"
+            },
+            "La Union": {
+                "Casos Confirmados": "108.0"
+            },
+            "Lago Ranco": {
+                "Casos Confirmados": "8.0"
+            },
+            "Lanco": {
+                "Casos Confirmados": "43.0"
+            },
+            "Los Lagos": {
+                "Casos Confirmados": "64.0"
+            },
+            "Mafil": {
+                "Casos Confirmados": "35.0"
+            },
+            "Mariquina": {
+                "Casos Confirmados": "46.0"
+            },
+            "Paillaco": {
+                "Casos Confirmados": "40.0"
+            },
+            "Panguipulli": {
+                "Casos Confirmados": "70.0"
+            },
+            "Rio Bueno": {
+                "Casos Confirmados": "74.0"
+            },
+            "Valdivia": {
+                "Casos Confirmados": "559.0"
+            },
+            "Desconocido Los Rios": {
+                "Casos Confirmados": "7.0"
+            }
+        },
+        "Los Lagos": {
+            "Ancud": {
+                "Casos Confirmados": "113.0"
+            },
+            "Calbuco": {
+                "Casos Confirmados": "325.0"
+            },
+            "Castro": {
+                "Casos Confirmados": "32.0"
+            },
+            "Chaiten": {
+                "Casos Confirmados": "15.0"
+            },
+            "Chonchi": {
+                "Casos Confirmados": "1.0"
+            },
+            "Cochamo": {
+                "Casos Confirmados": "23.0"
+            },
+            "Curaco de Velez": {
+                "Casos Confirmados": "18.0"
+            },
+            "Dalcahue": {
+                "Casos Confirmados": "8.0"
+            },
+            "Fresia": {
+                "Casos Confirmados": "118.0"
+            },
+            "Frutillar": {
+                "Casos Confirmados": "290.0"
+            },
+            "Futaleufu": {
+                "Casos Confirmados": "1.0"
+            },
+            "Hualaihue": {
+                "Casos Confirmados": "30.0"
+            },
+            "Llanquihue": {
+                "Casos Confirmados": "225.0"
+            },
+            "Los Muermos": {
+                "Casos Confirmados": "123.0"
+            },
+            "Maullin": {
+                "Casos Confirmados": "200.0"
+            },
+            "Osorno": {
+                "Casos Confirmados": "1195.0"
+            },
+            "Palena": {
+                "Casos Confirmados": "0.0"
+            },
+            "Puerto Montt": {
+                "Casos Confirmados": "3065.0"
+            },
+            "Puerto Octay": {
+                "Casos Confirmados": "76.0"
+            },
+            "Puerto Varas": {
+                "Casos Confirmados": "288.0"
+            },
+            "Puqueldon": {
+                "Casos Confirmados": "0.0"
+            },
+            "Purranque": {
+                "Casos Confirmados": "170.0"
+            },
+            "Puyehue": {
+                "Casos Confirmados": "61.0"
+            },
+            "Queilen": {
+                "Casos Confirmados": "0.0"
+            },
+            "Quellon": {
+                "Casos Confirmados": "7.0"
+            },
+            "Quemchi": {
+                "Casos Confirmados": "16.0"
+            },
+            "Quinchao": {
+                "Casos Confirmados": "3.0"
+            },
+            "Rio Negro": {
+                "Casos Confirmados": "82.0"
+            },
+            "San Juan de la Costa": {
+                "Casos Confirmados": "63.0"
+            },
+            "San Pablo": {
+                "Casos Confirmados": "33.0"
+            },
+            "Desconocido Los Lagos": {
+                "Casos Confirmados": "70.0"
+            }
+        },
+        "Aysén": {
+            "Aysen": {
+                "Casos Confirmados": "61.0"
+            },
+            "Chile Chico": {
+                "Casos Confirmados": "1.0"
+            },
+            "Cisnes": {
+                "Casos Confirmados": "0.0"
+            },
+            "Cochrane": {
+                "Casos Confirmados": "0.0"
+            },
+            "Coyhaique": {
+                "Casos Confirmados": "50.0"
+            },
+            "Guaitecas": {
+                "Casos Confirmados": "1.0"
+            },
+            "Lago Verde": {
+                "Casos Confirmados": "0.0"
+            },
+            "OHiggins": {
+                "Casos Confirmados": "0.0"
+            },
+            "Rio Ibanez": {
+                "Casos Confirmados": "0.0"
+            },
+            "Tortel": {
+                "Casos Confirmados": "0.0"
+            },
+            "Desconocido Aysen": {
+                "Casos Confirmados": "1.0"
+            }
+        },
+        "Magallanes": {
+            "Antartica": {
+                "Casos Confirmados": "0.0"
+            },
+            "Cabo de Hornos": {
+                "Casos Confirmados": "24.0"
+            },
+            "Laguna Blanca": {
+                "Casos Confirmados": "0.0"
+            },
+            "Natales": {
+                "Casos Confirmados": "74.0"
+            },
+            "Porvenir": {
+                "Casos Confirmados": "57.0"
+            },
+            "Primavera": {
+                "Casos Confirmados": "6.0"
+            },
+            "Punta Arenas": {
+                "Casos Confirmados": "3098.0"
+            },
+            "Rio Verde": {
+                "Casos Confirmados": "0.0"
+            },
+            "San Gregorio": {
+                "Casos Confirmados": "2.0"
+            },
+            "Timaukel": {
+                "Casos Confirmados": "0.0"
+            },
+            "Torres del Paine": {
+                "Casos Confirmados": "0.0"
+            },
+            "Desconocido Magallanes": {
+                "Casos Confirmados": "9.0"
+            }
+        }
+    }
+}
