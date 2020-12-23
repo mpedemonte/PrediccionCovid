@@ -12,6 +12,7 @@ La base de datos se puede construir descargando los archivos csv y con los scrip
 * [Python 3.8](https://www.python.org)
 * [Streamlit](https://pypi.org/project/PyQt5/)
 * [MongoDB](https://www.mongodb.com)
+* [Keras](https://keras.io)
 
 
 ## Autores ✒️
