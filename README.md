@@ -2,8 +2,7 @@
 
 La siguiente app web realiza una prediccion sobre el covid en chile por medio de redes neuronales en base a la base de datos de ICOVID.
 
-## Construido con 🛠️
-
+## Base de Datos
 
 La base de datos se puede construir descargando los archivos csv y con los scripts correspondientes.
 
