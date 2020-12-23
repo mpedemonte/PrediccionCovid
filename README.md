@@ -10,19 +10,19 @@ La base de datos se puede construir descargando los archivos csv y con los scrip
 
 Para la ejecuccion con anaconda se utilizan los siguientes comandos:
 
-* CREACION ENTORNO VIRTUAL EN CONDA LLAMADO STREAMLIT
+CREACION ENTORNO VIRTUAL EN CONDA LLAMADO STREAMLIT
 ```
 conda create -n streamlit -y
 ```
-* ACTIVAR ENTORNO VIRTUAL
+ACTIVAR ENTORNO VIRTUAL
 ```
 conda activate streamlit
 ```
-* INSTALAR STREAMLIT
+INSTALAR STREAMLIT
 ```
 pip install streamlit
 ```
-* INICIAR APLICACIÓN
+INICIAR APLICACIÓN
 ```
 streamlit run ./app.py
 ```
